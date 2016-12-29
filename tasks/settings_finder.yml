@@ -1,0 +1,33 @@
+---
+
+- name: Show hidden files
+  osx_defaults:
+    domain: com.apple.Safari
+    key: IncludeInternalDebugMenu
+    type: bool
+    value: true
+    state: present
+
+- name: Disable Warning When Change File Extension
+  osx_defaults:
+    domain: com.apple.finder
+    key: FXEnableExtensionChangeWarning
+    type: bool
+    value: false
+    state: present
+
+- name: Empty Trash without any warning
+  osx_defaults:
+    domain: com.apple.finder
+    key: WarnOnEmptyTrash
+    type: bool
+    value: false
+    state: present
+
+- name: Empty Trash Securely
+  osx_defaults:
+    domain: com.apple.finder
+    key: EmptyTrashSecurely
+    type: bool
+    value: true
+    state: present

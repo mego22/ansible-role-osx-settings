@@ -1,0 +1,5 @@
+---
+# Posiblly use this for Apple Store apps: https://github.com/argon/mas
+
+- include: settings_finder.yml
+- include: settings_screensaver.yml
