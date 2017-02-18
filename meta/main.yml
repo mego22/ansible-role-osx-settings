@@ -1,0 +1,12 @@
+---
+dependencies: []
+galaxy_info:
+  author: mego22
+  description: OSX settings
+  issue_tracker_url: https://github.com/mego22/ansible-role-osx-settings/issues
+  license: license (BSD, MIT)
+  min_ansible_version: 2.1
+  platforms:
+    - name: Darwin
+     versions:
+       - all
